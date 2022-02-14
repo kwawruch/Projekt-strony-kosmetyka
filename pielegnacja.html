@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usługi - Paznokcie</title>
+    <link rel="style" href="Pacifico.ttf" type="font/ttf">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> <!--Logo font font-family: 'Pacifico', cursive;-->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> <!--podpis font-family: 'Great Vibes', cursive;-->
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <style>
+        body {
+            background-image: url("images/bg.jpg");
+            background-color: white;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="podstrona">
+        <div class="header" id="headerjs">
+            <div class="logo">
+                <span class="logo-small-title">Beauty</span>
+            </div>
+            <div class="menu">
+                <ul id="MenuButton">
+                    <li><a href="index.php">Strona główna</a></li>
+                    <li><a id="addon" href="#uslugi">Usługi</a>
+                        <ul>
+                            <li class="dropli"><a href="paznokcie.html">Paznokcie</a></li>
+                            <li class="dropli"><a href="pielegnacja.html">Pielęgnacja ciała</a></li>
+                            <li class="dropli"><a href="makijaz.html">Makijaż</a></li>
+                            <li class="dropli"><a href="masaz.html">Masaż</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="cennik.php">Cennik</a></li>
+                    <li><a href="rezerwacje.php">Rezerwacje</a></li>
+                    <li><a href="onas.php">O nas</a></li>
+                    <li><a href="kontakt.php">Kontakt</a></li>
+                </ul>
+                <button class="menu-button" onClick="ShowMenu()"><span class="menu-button-t">+</span></button>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="uslugibox">
+            <h2>Harmonia zielonej herbaty</h2>
+            <p>Detoksykujący zabieg na całe ciało przy użyciu wyciągu z zielonej herbaty. Terapia trwa ok. 1,5 godziny, począwszy od peelingu herbacianego, masażu aromatycznymi olejkami po okład z maski zawierającej ekstrakty liści chińskiego drzewka.<br><br><b>Cel:</b> regeneracja i relaks<br><br><b>Efekty:</b> dzięki zawartości polifenoli zielona herbata działa przeciwstarzeniowo.  Dodatkowo składniki czynne zawarte w liściach zielonej herbaty uelastyczniają, napinają i odżywiają skórę. Przyjemny aromat zielonej herbaty silnie energetyzuje i relaksuje.</p>
+        </div>
+        <div class="uslugibox">
+            <h2>Tropikalna rozkosz owoców mango</h2>
+            <p>Zabieg składa się z peelingu z mango, masażu aromatycznym olejkiem z mango oraz okładem z masła mango, który trwa ok. 1,5 godziny. Miąższ z tego owocu jest bogatym źródłem witaminy C i silnym antyoksydantem.<br><br><b>Cel:</b> relaks i regeneracja<br><br><b>Efekty:</b> zabieg uszczelnia naczynia krwionośne oraz stymuluje produkcję kolagenu i elastyny. Ponadto terapia z mango neutralizuje wolne rodniki w skórze, hamując procesy starzenia.</p>
+        </div>
+        <div class="uslugibox">
+            <h2>Rytuał winogronowa regeneracja</h2>
+            <p>W składzie rytuału: peeling winogronowy, masaż aromatycznym olejkiem winogronowym oraz okład z masła winogronowego. Ekstrakt z winorośli wzmacnia barierę ochronną skóry, chroni ją przed podrażnieniami, przyspiesza regenerację mikrouszkodzeń spowodowanych opalaniem czy nieprawidłową pielęgnacją. Ekstrakt z winogron bogaty jest w polifenole, witaminy i składniki mineralne.<br><br><b>Cel:</b> detoks i odżywienie<br><br><b>Efekty:</b> zabieg chroni skórę przed stresem oksydacyjnym, infekcjami i promieniowaniem UV. Synergistyczne połączenie olejów i ekstraktu roślinnego zapewnia odpowiednie odżywienie i detoks skóry.</p>
+        </div>
+        <div class="uslugibox">
+            <h2>Luksusowy rytuał truflowy</h2>
+            <p>W składzie rytuału: peeling truflowy, masaż aromatyczny olejkiem truflowym oraz okład z masła truflowego. Truflowa terapia anti-aging to rytuał przeznaczony dla każdej skóry wymagającej odmłodzenia. Czas trwania: 1,5 godziny.<br><br><b>Cel:</b>Anti-age<br><br><b>Efekty:</b> składniki aktywne pobudzają produkcję kolagenu i elastyny, stymulują odnowę komórkową oraz pomagają skórze zachować elastyczność i młody wygląd. Intensywny, świeży zapach pobudza wszystkie zmysły i dodaje energii zmęczonemu ciału.</p>
+        </div>
+        <div class="uslugibox">
+            <h2>Czyszczenie kwasem</h2>
+            <p>Kwasy na twarz? Brzmi to jak jakaś forma tortur! Jednak spokojnie – nie ma się czego bać! Hydrokwasy do eksfoliacji to zbawienne w wielu przypadłościach substancje, dzięki którym możemy pozbyć się wielu chorób skóry, zanieczyszczeń a także widocznie odmłodzić i nawilżyć skórę.<br><br><b>Efekty:</b> Usuwają martwy naskrórek, przebarwienia potrądzikowe, poprawiając strukturę, nawilżenie i koloryt. Odblokowują pory usuwając zanieczyszczenia.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-block">
+            <div class="logo">
+                <span class="logo-small-title">Beauty</span>
+            </div>
+        </div>
+        <div class="footer-block">
+            Salon kosmetyczny <br>Beauty <br>64-800 Chodzież <br>ul. Ratajska 12xd <br><br> Godziny otwarcia:<br>Pn-pt 9:00 - 17:00
+        </div>
+        <div class="footer-block">
+            Tel: 503 275 899 <br>Email: info@beauty.pl
+        </div>
+        <div class="admin">
+            <a href="admin.php">Admin</a>
+        </div>
+    </div>
+</body>
+</html>
